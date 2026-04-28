@@ -1,0 +1,21 @@
+
+> tmp-app@0.1.0 start
+> next start
+
+▲ Next.js 16.2.4
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 192ms
+⨯ Error: Missing API key. Pass it to the constructor `new Resend("re_123")`
+    at new <anonymous> (.next/server/chunks/ssr/[root-of-the-server]__0.q0-1u._.js:14:31241)
+    at module evaluation (.next/server/chunks/ssr/[root-of-the-server]__0.q0-1u._.js:14:30709)
+    at instantiateModule (.next/server/chunks/ssr/[turbopack]_runtime.js:853:9)
+    at getOrInstantiateModuleFromParent (.next/server/chunks/ssr/[turbopack]_runtime.js:877:12)
+    at Context.esmImport [as i] (.next/server/chunks/ssr/[turbopack]_runtime.js:281:20)
+    at module evaluation (.next/server/chunks/ssr/[root-of-the-server]__0tbv2js._.js:1:224)
+    at instantiateModule (.next/server/chunks/ssr/[turbopack]_runtime.js:853:9)
+    at getOrInstantiateModuleFromParent (.next/server/chunks/ssr/[turbopack]_runtime.js:877:12)
+    at Context.commonJsRequire [as r] (.next/server/chunks/ssr/[turbopack]_runtime.js:302:12) {
+  digest: '2065752421'
+}
+Killed
